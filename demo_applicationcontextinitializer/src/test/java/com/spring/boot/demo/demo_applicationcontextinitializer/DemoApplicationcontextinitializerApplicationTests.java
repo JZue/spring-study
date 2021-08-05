@@ -1,10 +1,10 @@
-package com.spring.note.demo.demo;
+package com.spring.boot.demo.demo_applicationcontextinitializer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringNoteApplicationTests {
+class DemoApplicationcontextinitializerApplicationTests {
 
     @Test
     void contextLoads() {
