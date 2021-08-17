@@ -11,7 +11,6 @@ public class DemoApplicationlistnerApplication {
         ConfigurableApplicationContext run = SpringApplication.run(DemoApplicationlistnerApplication.class, args);
         run.publishEvent(new MyApplicationEvent("MyApplicationEvent"));
         run.publishEvent("payload event");
-
     }
 
 }
