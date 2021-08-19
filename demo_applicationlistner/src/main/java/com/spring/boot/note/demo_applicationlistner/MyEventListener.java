@@ -11,10 +11,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyEventListener {
 
+
     @EventListener
     public void eventApplicationEvent(MyApplicationEvent myApplicationEvent){
         System.out.println("EventListener:ApplicationEvent"+myApplicationEvent.getSource());
     }
+
     @EventListener
     public void eventPayload(PayloadApplicationEvent<String> myApplicationEvent){
         System.out.println("EventListener:eventPayload"+myApplicationEvent.getPayload());
